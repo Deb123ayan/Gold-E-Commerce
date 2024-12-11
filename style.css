@@ -1,0 +1,323 @@
+
+*{
+    margin: 0%;padding: 0%;box-sizing: border-box;justify-content: center;text-wrap: balance;
+}
+div{
+    justify-content: center;
+}
+html,body{
+    width: 100%;height: 100%;
+}
+.contain{
+    width: 100%;height: 100%;
+}@font-face{
+    src: url(Luxury\ Modish.otf);
+    font-family: font1;
+}
+@font-face{
+    src: url(BeautyLuxury-Regular.otf);
+    font-family: font2;
+}
+@font-face{
+    src: url(Richsten\ Demo.otf);
+    font-family: font3;
+}
+@font-face{
+    src: url(Delicate\ Caligraphy\ Demo.ttf);
+    font-family: font4;
+}
+img{
+    max-width: 100%;height: auto;
+}
+
+.firstpg{
+    width: 100vw;height: 100vh;
+}
+.header{
+    width: 100vw;height: 81vh;justify-content: center;align-items: center;margin-left: auto;margin-right: auto;
+    background-image: Linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('Untitled_design_25.png');background-size: cover;background-position: center;}
+.subheading{
+    width: 100vw;height: 15vh;padding: auto;text-align: center;font-size: 2rem;color:white;text-overflow: visible;
+   
+}
+.heading{
+    width: 100vw;height: 20vh;padding:0.2rem;text-align: center;font-size: 3.5rem;color:white; font-family: font3;font-weight: 400;
+}
+.hero_menu{
+    width: 100vw;height: 40vh;
+}
+.buynow{
+    width: 100vw;height: 30vh;padding: 0.7rem;font-family: font4;
+}
+.menu{
+    width: 100vw;height: 10vh;display: flex;justify-content:center;align-items: center;
+}
+.text{
+    color:white ;font-family: font4;font-weight: 400;
+   
+}
+.arrival{
+    width: 100vw;height: 20vh;color: grey;text-shadow: 0 0 2px black;text-align: center;
+}
+.text:hover{
+    scale: 1.2;cursor: pointer;
+}
+.secondpage{
+width: 100vw;height: 70vh;
+}
+
+.car_d{
+}
+.c{
+margin: 0.7rem;padding: 0.3rem;background-color: black;border-radius: 10px;box-shadow: 1px 1px 10px rgb(138, 138, 138);font-family: font4;text-align: center;color: white;text-shadow: 0 0 3px black;font-size: 2rem;
+p{
+    position: relative;top:50%;
+}}
+.c:hover{
+    scale: 1.03;box-shadow: 2px 2px 10px black;border-bottom: 10px;cursor:pointer ;
+}
+
+
+.butn{
+    width: 10rem;height: 3rem;text-align: center;position:relative;color:white;border-radius: 10px;border:1px solid white;background-color: goldenrod;opacity: 70%;
+}
+#b1,#b2{
+    top:70%;position: relative;
+}
+
+#b3{
+    top:40%;
+}
+.thrdpg{
+    width: 100vw;height: 130vh;
+   
+}
+.bg {
+    position: relative;justify-content: center;margin: auto;margin-top:1rem;padding: 0.5rem;
+    width: 80vw;  /* 80% of viewport width */
+    height: 80vh; /* 80% of viewport height */
+    overflow: hidden;
+   
+   
+    background-color:rgba(0,0,0,0.3);
+}
+
+.bg video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;z-index: -1;
+    transform: translate(-50%, -50%);overflow-x: hidden;overflow-y: hidden;
+}
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-left {
+    font-size: 14px;
+  }
+
+  .footer-center ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-center li {
+    display: inline;
+    margin: 0 10px;
+  }
+
+  .footer-center a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer-right a {
+    margin: 0 10px;
+  }
+
+  .footer-right img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer-center a:hover,
+  .footer-right a:hover {
+    text-decoration: underline;
+  }
+
+
+@media only screen and (max-width: 599px) { 
+    .subheading{
+        p{
+            font-size: 1.5rem;
+        }
+    }
+    .heading{
+        p{
+            font-size: 2rem;
+        }
+    }
+    /* Styles for small devices */
+    .text{
+        margin: 0.9%;padding:0.4%;font-size: 0.7rem;
+    }
+    .random{
+        p{
+            font-size: 0.8rem;
+        }
+    }
+    #bt{
+        height: 1rem;width: 3.4rem;font-size: xx-small;
+    }
+    .car_d{
+        width: 100vw;height: 150vh;display: block;justify-content:center;
+    }
+    .c{
+        width: 50%;height: 10%;margin: 0.7rem;padding: 0.3rem;background-color: black;border-radius: 10px;box-shadow: 1px 1px 10px rgb(138, 138, 138);font-family: font4;text-align: center;color: white;text-shadow: 0 0 3px black;font-size: 2rem;position: relative;left: 24%;
+    p{
+        position: relative;top:50%;
+    }}
+    #but_on{
+        width: 7rem;height: 3.5rem;font-family: font4;text-align: center;background-color: gold;color: black;border-top-left-radius: 10px;border-bottom-right-radius: 10px;position: relative;font-weight: 600;left: 35.6%;top:18%;border: 1px solid white;
+    }
+    .bg{p{
+        font-size: 3rem;color: white;font-family: font4;text-align: center;text-shadow: 0 0 3px black;position: relative;top:20%;
+    }
+  }
+  .filler{
+    width: 100%;height: 10vh;
+}}
+  
+  /* Small devices (tablets, 600px and above) */
+  @media only screen and (min-width: 600px) and (max-width: 899px) { 
+    .subheading{
+        p{
+            font-size: 1.5rem;
+        }
+    }
+    .heading{
+        p{
+            font-size: 2rem;
+        }}
+    /* Styles for tablets */
+    .text{
+        margin: 2%;padding:0.4%;font-size: 1.1rem;
+    }
+    .random{
+        p{
+            font-size: 0.9rem;
+        }
+    }
+    #bt{
+        height: 1.4rem;width: 5rem;font-size: x-small;
+    }
+    .car_d{
+        width: 100vw;height: 150vh;display: block;justify-content:center;
+    }
+    .c{
+        width: 80%;height: 10%;margin: 0.7rem;padding: 0.3rem;background-color: black;border-radius: 10px;box-shadow: 1px 1px 10px rgb(138, 138, 138);font-family: font4;text-align: center;color: white;text-shadow: 0 0 3px black;font-size: 2rem;position: relative;left:9%;
+    p{
+        position: relative;top:50%;
+    }}
+    #but_on{
+        width: 7rem;height: 3.5rem;font-family: font4;text-align: center;background-color: gold;color: black;border-top-left-radius: 10px;border-bottom-right-radius: 10px;position: relative;font-weight: 600;left: 43%;
+        top: 19%;border: 1px solid white;
+    }
+   .bg{ p{
+        font-size: 3.5rem;color: white;font-family: font4;text-align: center;text-shadow: 0 0 3px black;position: relative;top:20%;
+    }}
+    .filler{
+        width: 100%;height: 15vh;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 900px and above) */
+  @media only screen and (min-width: 900px) and (max-width: 1199px) { 
+    /* Styles for medium devices */
+    .text{
+        margin: 2%;padding:0.2%;font-size: 1.1rem;
+    }
+    .random{
+        p{
+            font-size: 1.3rem;
+        }
+    }
+    #bt{
+        height: 1.7rem;width: 6rem;font-size: medium;
+    }
+    .car_d{
+        width: 100vw;height: 150vh;display:block;justify-content:center;overflow-y: hidden;overflow-x: hidden;
+    }
+    .c{
+        width: 60%;height:10%;margin:1%;padding: 0.3rem;background-color: black;border-radius: 10px;box-shadow: 1px 1px 10px rgb(138, 138, 138);font-family: font4;text-align: center;color: white;text-shadow: 0 0 3px black;font-size: 2rem;position: relative;left:20%;
+    p{
+        position: relative;top:50%;
+    }}
+    #but_on{
+        width: 7rem;height: 3.5rem;font-family: font4;text-align: center;background-color: gold;color: black;border-top-left-radius: 10px;border-bottom-right-radius: 10px;position: relative;font-weight: 600;left: 43%;
+        top: 18%;border: 1px solid white;
+    }
+    .bg{p{
+        font-size: 3.4rem;color: white;font-family: font4;text-align: center;text-shadow: 0 0 3px black;position: relative;top:20%;
+    }}
+    .filler{
+        width: 100%;height: 10vh;
+    }
+  }
+  
+  /* Large devices (desktops, 1200px and above) */
+  @media only screen and (min-width: 1200px) { 
+    /* Styles for large screens (desktops) */
+    .text{
+        margin: 2%;padding:2%;font-size: 1.5rem;
+    }
+    .random{
+        p{
+            font-size: 1.2rem;
+        }
+    }
+    #bt{
+        height: 2.5rem;width: 10rem;font-size: medium;
+    }
+    .car_d{
+        width: 100vw;height: 50vh;display: flex;justify-content:space-evenly;
+    }
+    .c{
+        width: 20%;height: 90%;margin: 0.7rem;padding: 0.3rem;background-color: black;border-radius: 10px;box-shadow: 1px 1px 10px rgb(138, 138, 138);font-family: font4;text-align: center;color: white;text-shadow: 0 0 3px black;font-size: 2rem;
+    p{
+        position: relative;top:50%;
+    }}
+    .filler{
+        width: 100%;height: 5vh;
+    }
+    #but_on{
+        width: 7rem;height: 3.5rem;font-family: font4;text-align: center;background-color: gold;color: black;border-top-left-radius: 10px;border-bottom-right-radius: 10px;position: relative;font-weight: 600;left: 45%;top:16%;border: 1px solid white;
+    }
+    .bg{
+        p{
+        font-size: 5rem;color: white;font-family: font4;text-align: center;text-shadow: 0 0 3px black;position: relative;top:20%;
+    }
+  }}
+
+  
+
+
